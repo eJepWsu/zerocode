@@ -9,9 +9,7 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches:
-      - ELJ_05_Testing
+  workflow_dispatch
   
 jobs:
   build:
